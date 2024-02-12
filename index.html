@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List Page</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        @media screen and (max-width: 668px) {
+            
+            h1 {
+                text-align: center;
+                font-size: 18px;
+                background-color: gray;
+                color: aliceblue;
+                margin: 15px;
+                padding: 10px;
+              }
+              .container {
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                align-items: center;
+            
+              }
+
+              .left {
+                margin-bottom: 10px;
+              }
+
+              .right .products{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+
+              .right .products .item {
+                flex-basis: 40%;
+                padding: 5px;
+                margin: 5px;
+                gap: 6px;
+              }
+              .right .products .item img {
+                width: 140px;
+                height: 140px;
+            
+              }
+              .right .products .item h5 ,h4 {
+                font-size: 10px;
+              }
+              
+        }
+    </style>
+</head>
+<body>
+    
+  <h1>Product List</h1>
+  <hr>
+  <div class="container">
+     <div class="left">
+        <div class="category">
+
+        </div>
+     </div>
+     <div class="right">
+        <div class="products">
+            <!-- <div class="item">
+                <img src="../Rock_Paper_Scissors/img/newpaper.png" alt="Product" srcset="">
+                <h5>Category</h5>
+                <h5>Price:500 | Rating:3.5</h5>
+                <h4>Product Name</h4>
+            </div> -->
+        </div>
+     </div>
+  </div>
+    <script src="./script.js"></script>
+</body>
+</html>
