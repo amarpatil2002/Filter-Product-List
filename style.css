@@ -37,6 +37,14 @@ h1 {
   flex-direction: column;
 }
 
+.left .category .cate{
+  display: flex;
+  gap: 5px;
+}
+.left .category .cate span{
+ text-transform: capitalize;
+}
+
 .right .products {
   display: flex;
   justify-content: space-between;

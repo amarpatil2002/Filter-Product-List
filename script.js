@@ -14,8 +14,9 @@ let mainFun = async (filterArray=[]) => {
 
         if(!cateArray.includes(pro.category))
         {
-            categoryDiv.innerHTML += ` <div>
-            <input type="checkbox" onclick="filterData()" value="${pro.category}"><span>${pro.category}</span>
+            categoryDiv.innerHTML += ` <div class="cate">
+            <input type="checkbox" onclick="filterData()" value="${pro.category}">
+            <div><span>${pro.category}</span></div>
            </div>`
            // console.log(pro.category);
            cateArray.push(pro.category)
